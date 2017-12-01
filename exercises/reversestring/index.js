@@ -21,7 +21,7 @@
 function reverse(str) {
   if (str.length === 1) return str
   else {
-    return reverse(str.charAt(str.length-1)) + reverse(str.slice(0, -1))
+    return reverse(str.charAt(str.length - 1)) + reverse(str.slice(0, -1))
   }
 }
 
