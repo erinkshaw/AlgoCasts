@@ -8,6 +8,17 @@
 //   anagrams('RAIL! SAFETY!', 'fairy tales') --> True
 //   anagrams('Hi there', 'Bye there') --> False
 
-function anagrams(stringA, stringB) {}
 
+// functional programming
+function anagrams(stringA, stringB) {
+  stringA = stringA.replace(/\W/g, '').split('').sort().join('')
+  stringB = stringB.replace(/\W/g, '').split('').sort().join('')
+  return stringA === stringB
+}
 module.exports = anagrams;
+
+
+//make object
+// function anagrams(stringA, stringB) {
+
+// }
