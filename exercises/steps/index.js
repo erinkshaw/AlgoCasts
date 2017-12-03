@@ -17,6 +17,20 @@
 //       '### '
 //       '####'
 
-function steps(n) {}
+function steps(n) {
+  let dash = '#'
+  for (var i = 1; i <= n; i++) {
+    let dot = ''
+    for (var j = n-i; j > 0; j--) {
+      dot += ' '
+    }
+    console.log(dash.concat(dot))
+    dash += '#'
+  }
+}
 
 module.exports = steps;
+
+//nested loop?
+
+//react  context? implicitly pass props to all children
