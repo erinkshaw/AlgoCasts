@@ -8,6 +8,13 @@
 // Example:
 //   fib(4) === 3
 
-function fib(n) {}
+function fib(n) {
+  //base case
+  if (n < 2) return n
+  //recursive case
+  else {
+    return fib(n-2) + fib(n-1)
+  }
+}
 
 module.exports = fib;

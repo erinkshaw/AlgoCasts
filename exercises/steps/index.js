@@ -31,6 +31,8 @@ function steps(n) {
 
 module.exports = steps;
 
+//solve with recursion
+
 //nested loop?
 
 //react  context? implicitly pass props to all children

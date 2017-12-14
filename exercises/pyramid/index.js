@@ -49,3 +49,5 @@ function pyramid(n) {
 //all rows have to be odd
 
 module.exports = pyramid;
+
+//solve with recursion
